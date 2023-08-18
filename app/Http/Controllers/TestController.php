@@ -15,4 +15,22 @@ class TestController extends Controller
     {
         return view('pendataan');
     }
+
+    public function datanama($nama)
+    {
+        return view('datanama', ["nama" => $nama]);
+    }
+
+    public function daftar()
+    {
+        return view('daftar');
+    }
+
+    public function kirim(Request $request)
+    {
+        $name = $request->input('nama');
+        $address = $request->input('alamat');
+
+        return view('dashboard', ["name" => $name, "address" => $address]);
+    }
 }
