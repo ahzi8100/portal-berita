@@ -9,8 +9,9 @@
 </head>
 
 <body>
-    <h1>Selamat datang di Aplikasi ku</h1>
-    <a href="/pendataan">Pendataan</a>
+    <h2>Ini adalah halaman pendataan</h2>
+    <a href="{{ route('home') }}">Home</a>
+
 </body>
 
 </html>
