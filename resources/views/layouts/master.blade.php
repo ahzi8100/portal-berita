@@ -47,8 +47,8 @@
                                     class="sr-only">(current)</span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_1">
-                                <a href="#" class="dropdown-item">Tampil Kategori</a>
-                                <a href="#" class="dropdown-item">Tambah Kategori</a>
+                                <a href="/categories" class="dropdown-item">Tampil Kategori</a>
+                                <a href="/categories/categories" class="dropdown-item">Tambah Kategori</a>
                             </div>
                         </li>
                     </ul>
