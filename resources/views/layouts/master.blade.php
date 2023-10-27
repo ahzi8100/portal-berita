@@ -51,6 +51,15 @@
                                 <a href="/categories/categories" class="dropdown-item">Tambah Kategori</a>
                             </div>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton2"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Berita <span
+                                    class="sr-only">(current)</span></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink_1">
+                                <a class="dropdown-item" href="/news">Tampil Berita</a>
+                                <a class="dropdown-item" href="/news/create">Tambah Berita</a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </nav>
